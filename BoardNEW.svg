@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="213.56476mm"
+   height="96.275429mm"
+   viewBox="0 0 213.56476 96.275429"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
+   sodipodi:docname="BoardNEW.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     height="410.67682mm"
+     inkscape:zoom="0.90583672"
+     inkscape:cx="315.17821"
+     inkscape:cy="164.48881"
+     inkscape:window-width="1920"
+     inkscape:window-height="1015"
+     inkscape:window-x="0"
+     inkscape:window-y="28"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2">
+    <marker
+       id="DistanceX"
+       orient="auto"
+       refX="0"
+       refY="0"
+       style="overflow:visible">
+      <path
+         d="M 3,-3 -3,3 M 0,-5 V 5"
+         style="stroke:#000000;stroke-width:0.5"
+         id="path1448" />
+    </marker>
+    <pattern
+       id="Hatch"
+       patternUnits="userSpaceOnUse"
+       width="8"
+       height="8"
+       x="0"
+       y="0">
+      <path
+         d="M8 4 l-4,4"
+         stroke="#000000"
+         stroke-width="0.25"
+         linecap="square"
+         id="path1451" />
+      <path
+         d="M6 2 l-4,4"
+         stroke="#000000"
+         stroke-width="0.25"
+         linecap="square"
+         id="path1453" />
+      <path
+         d="M4 0 l-4,4"
+         stroke="#000000"
+         stroke-width="0.25"
+         linecap="square"
+         id="path1455" />
+    </pattern>
+    <symbol
+       id="*Model_Space" />
+    <symbol
+       id="*Paper_Space" />
+    <symbol
+       id="*Paper_Space0" />
+  </defs>
+  <g
+     inkscape:label="Livello 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-18.095591,-11.584823)">
+    <path
+       id="path1463"
+       style="fill:#fffee4;fill-opacity:1;stroke:none;stroke-width:0.999999;stroke-opacity:1"
+       d="m 1417.1035,507.44922 -40.6426,16.83594 22.0606,39.79882 -123.6016,68.51368 v 164.4375 l 8.6641,15.6289 L 1413,870.2832 h 4.8027 l 61.0996,-19.01562 138.2735,-0.58203 v -24.25586 h 253.8711 v 19.37304 l 71.4551,24.48047 126.0683,-64.23632 12.5235,-22.5918 v -198.2207 l -8.5528,-10.94532 -21.1094,41.43555 -66.705,-33.98828 v 137 H 1868.2988 V 551.67969 h -39.289 V 739.52344 H 1428.7383 V 595.7832 l 16.1699,-13.66992 -0.035,-0.12109 14.8575,-12.41016 v -62.13281 z m 33.0469,6.07617 a 3.6405585,3.6405585 0 0 1 3.7812,3.63867 3.6406,3.6406 0 0 1 -7.2812,0 3.6405585,3.6405585 0 0 1 3.5,-3.63867 z m 618.3574,73.89453 a 3.7287496,3.7287496 0 0 1 3.8711,3.72656 3.7287496,3.7287496 0 0 1 -7.457,0 3.7287496,3.7287496 0 0 1 3.5859,-3.72656 z m -781.9863,203.36719 a 3.9066089,3.9066089 0 0 1 4.0566,3.9082 3.9066089,3.9066089 0 1 1 -7.8125,0 3.9066089,3.9066089 0 0 1 3.7559,-3.9082 z m 780.3086,0.17187 a 3.957738,3.957738 0 0 1 4.1094,3.96094 3.95805,3.95805 0 1 1 -7.9161,0 3.957738,3.957738 0 0 1 3.8067,-3.96094 z m -650.6524,63.91797 a 3.9897705,3.9897705 0 0 1 4.1426,3.99024 3.9897705,3.9897705 0 1 1 -7.9785,0 3.9897705,3.9897705 0 0 1 3.8359,-3.99024 z m 521.4903,0.22852 a 3.8740411,3.8740411 0 0 1 4.0234,3.87695 3.8740411,3.8740411 0 1 1 -7.748,0 3.8740411,3.8740411 0 0 1 3.7246,-3.87695 z"
+       transform="matrix(0.26458333,0,0,0.26458333,-319.09467,-122.54549)"
+       inkscape:export-filename="/mnt/Dati/Documenti/Uni/Magistrale/TESI/Console 2023/Board Console 2023/board.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+  </g>
+</svg>
