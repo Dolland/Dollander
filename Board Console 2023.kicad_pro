@@ -64,9 +64,7 @@
           "width": 0.25
         }
       ],
-      "drc_exclusions": [
-        "silk_overlap|63535120|69677915|8bbb7ec9-82d9-4133-a03d-d0df7011e2d5|ba8282a6-a6aa-4547-9830-9359cd0df9d8"
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -217,9 +215,9 @@
           "corner_radius_percentage": 80,
           "corner_style": 1,
           "max_amplitude": 0.6,
-          "min_amplitude": 0.2,
+          "min_amplitude": 0.1,
           "single_sided": false,
-          "spacing": 0.5
+          "spacing": 0.6
         }
       },
       "via_dimensions": [
