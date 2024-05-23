@@ -198,10 +198,10 @@
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
           "corner_style": 1,
-          "max_amplitude": 1.0,
+          "max_amplitude": 0.4,
           "min_amplitude": 0.2,
           "single_sided": false,
-          "spacing": 1.0
+          "spacing": 0.6
         },
         "diff_pair_skew_defaults": {
           "corner_radius_percentage": 80,
@@ -214,7 +214,7 @@
         "single_track_defaults": {
           "corner_radius_percentage": 80,
           "corner_style": 1,
-          "max_amplitude": 0.6,
+          "max_amplitude": 0.5,
           "min_amplitude": 0.1,
           "single_sided": false,
           "spacing": 0.6
@@ -704,6 +704,70 @@
       {
         "netclass": "USB Diff",
         "pattern": "/D-"
+      },
+      {
+        "netclass": "HDMI Diff",
+        "pattern": "D2A+"
+      },
+      {
+        "netclass": "HDMI Diff",
+        "pattern": "D2A-"
+      },
+      {
+        "netclass": "HDMI Diff",
+        "pattern": "D1A+"
+      },
+      {
+        "netclass": "HDMI Diff",
+        "pattern": "D1A-"
+      },
+      {
+        "netclass": "HDMI Diff",
+        "pattern": "D0A+"
+      },
+      {
+        "netclass": "HDMI Diff",
+        "pattern": "D0A-"
+      },
+      {
+        "netclass": "HDMI Diff",
+        "pattern": "CKA+"
+      },
+      {
+        "netclass": "HDMI Diff",
+        "pattern": "CKA-"
+      },
+      {
+        "netclass": "HDMI Diff",
+        "pattern": "/HDMI Switch/D2B-"
+      },
+      {
+        "netclass": "HDMI Diff",
+        "pattern": "/HDMI Switch/D2B+"
+      },
+      {
+        "netclass": "HDMI Diff",
+        "pattern": "/HDMI Switch/D1B+"
+      },
+      {
+        "netclass": "HDMI Diff",
+        "pattern": "/HDMI Switch/D1B-"
+      },
+      {
+        "netclass": "HDMI Diff",
+        "pattern": "/HDMI Switch/D0B+"
+      },
+      {
+        "netclass": "HDMI Diff",
+        "pattern": "/HDMI Switch/D0B-"
+      },
+      {
+        "netclass": "HDMI Diff",
+        "pattern": "/HDMI Switch/CKB+"
+      },
+      {
+        "netclass": "HDMI Diff",
+        "pattern": "/HDMI Switch/CKB-"
       }
     ]
   },

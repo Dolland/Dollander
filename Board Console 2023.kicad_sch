@@ -8,118 +8,6 @@
 		(title "Console")
 	)
 	(lib_symbols
-		(symbol "Connector:Conn_01x01_Female"
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x01_Female"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_01x01_Female_1_1"
-				(polyline
-					(pts
-						(xy -1.27 0) (xy -0.508 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 0.508)
-					(mid -0.5058 0)
-					(end 0 -0.508)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Connector:Conn_01x01_Pin"
 			(pin_names
 				(offset 1.016) hide)
@@ -1104,6 +992,145 @@
 						)
 					)
 					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Connector_Generic:Conn_01x02"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x02"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x02_1_1"
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 1.27)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -8278,6 +8305,17 @@
 		(uuid "1ce5c23e-2eca-4524-99f2-7b8a57380b23")
 	)
 	(label "GND"
+		(at 99.695 123.825 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "239c6cd8-b92b-49bd-bad0-2812b9fcee52")
+	)
+	(label "GND"
 		(at 316.865 91.44 0)
 		(fields_autoplaced yes)
 		(effects
@@ -8541,17 +8579,6 @@
 		)
 		(uuid "756b2b4a-1f63-4823-b6a5-6775a91dd63e")
 	)
-	(label "VBUS"
-		(at 118.11 114.935 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "78b11a51-1fa7-481e-a971-bbbc18fcdc7d")
-	)
 	(label "SuperDX"
 		(at 86.36 115.57 0)
 		(fields_autoplaced yes)
@@ -8694,17 +8721,6 @@
 			(justify right bottom)
 		)
 		(uuid "a18bfe14-3838-47e4-906f-9203591db11f")
-	)
-	(label "VBUS"
-		(at 118.11 124.46 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "a446f872-48ee-4c01-839a-a6d443008ef4")
 	)
 	(label "GND"
 		(at 86.36 95.25 0)
@@ -9102,6 +9118,28 @@
 			)
 		)
 	)
+	(global_label "+5V"
+		(shape input)
+		(at 118.11 114.935 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4abb089a-17a1-4566-a6b5-bf60bba5756c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 111.2543 114.935 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SHTDWN"
 		(shape input)
 		(at 86.36 96.52 0)
@@ -9234,6 +9272,28 @@
 			)
 		)
 	)
+	(global_label "+5V"
+		(shape input)
+		(at 118.11 124.46 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e16076b0-5b46-4dff-8c5b-96a80be34fde")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 111.2543 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SCL"
 		(shape input)
 		(at 86.36 137.16 0)
@@ -9297,7 +9357,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MountingHole_Pad_MP"
+		(property "Value" "GND"
 			(at 181.8132 97.7321 90)
 			(effects
 				(font
@@ -9364,7 +9424,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MountingHole_Pad_MP"
+		(property "Value" "Joy_Y"
 			(at 186.8932 97.7321 90)
 			(effects
 				(font
@@ -9431,7 +9491,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MountingHole_Pad_MP"
+		(property "Value" "+3.3V"
 			(at 191.9732 97.7321 90)
 			(effects
 				(font
@@ -10443,7 +10503,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MountingHole_Pad_MP"
+		(property "Value" "Joy_SW"
 			(at 184.3532 97.7321 90)
 			(effects
 				(font
@@ -10624,7 +10684,6 @@
 		)
 	)
 	(symbol
-		(lib_name "SwitchMod:SW_Push_Dual")
 		(lib_id "SwitchMod:SW_Push_Dual")
 		(at 154.94 129.54 90)
 		(unit 1)
@@ -10775,7 +10834,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x01_Female")
+		(lib_id "Connector_Generic:Conn_01x02")
 		(at 97.155 118.745 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10785,24 +10844,24 @@
 		(fields_autoplaced yes)
 		(uuid "aea8bd28-bfe7-4f22-86d0-d2a9e8cefc67")
 		(property "Reference" "J2"
-			(at 96.3203 118.0338 0)
+			(at 101.727 117.5328 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "Composite OUT"
-			(at 98.8572 118.0338 0)
+			(at 101.727 119.9571 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.00mm:PinHeader_1x02_P2.00mm_Vertical"
 			(at 97.155 118.745 0)
 			(effects
 				(font
@@ -10820,7 +10879,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 97.155 118.745 0)
 			(effects
 				(font
@@ -10831,6 +10890,9 @@
 		)
 		(pin "1"
 			(uuid "b2c2418a-e163-4150-9219-194796d4ce0e")
+		)
+		(pin "2"
+			(uuid "4bb8dd3d-bd51-48c3-bd17-b367f1877f9a")
 		)
 		(instances
 			(project "Board Console 2023"
@@ -11010,7 +11072,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MountingHole_Pad_MP"
+		(property "Value" "GND"
 			(at 189.4332 97.7321 90)
 			(effects
 				(font
@@ -11615,7 +11677,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MountingHole_Pad_MP"
+		(property "Value" "Joy_X"
 			(at 178.0032 97.7321 90)
 			(effects
 				(font

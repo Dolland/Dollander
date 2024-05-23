@@ -6409,13 +6409,13 @@
 		(uuid "4cde4a8d-71c2-4216-966c-dced7f78b759")
 	)
 	(label "CC2"
-		(at 193.675 32.385 90)
+		(at 194.945 32.385 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "6ed83afa-3f6e-4cc9-97b6-7adfd4a63fa4")
 	)
@@ -6431,13 +6431,13 @@
 		(uuid "76cc8489-12a6-4c42-b42c-c9ebb8ba3e6d")
 	)
 	(label "D-"
-		(at 236.855 34.925 270)
+		(at 236.855 34.925 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "7f463625-00aa-48f6-86ee-e880cd42aef7")
 	)
@@ -6464,7 +6464,7 @@
 		(uuid "8a7c1676-9c83-492c-81a6-b480fe46b061")
 	)
 	(label "D+"
-		(at 195.58 34.925 270)
+		(at 195.58 34.925 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6497,7 +6497,7 @@
 		(uuid "aed624c4-92f9-4e9b-8f20-46483d37be1d")
 	)
 	(label "SCL_BATT"
-		(at 239.395 113.665 0)
+		(at 239.395 113.03 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6580,6 +6580,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+5V"
+		(shape input)
+		(at 231.14 126.365 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "371c0dfd-bf24-426c-adac-e4704b134946")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 237.9957 126.365 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -6729,28 +6751,6 @@
 		(uuid "b66603ef-084d-41e2-8ac8-cd0f688580dd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 279.5428 79.375 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "+3.3V"
-		(shape input)
-		(at 231.14 126.365 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "b82be1c9-5864-4b48-a450-757f1b1bbb12")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 239.81 126.365 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7443,7 +7443,7 @@
 		(dnp no)
 		(uuid "22ef188b-b952-45e9-b6af-bc1bf3fe5fb6")
 		(property "Reference" "J9"
-			(at 53.34 31.75 0)
+			(at 52.705 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7656,7 +7656,7 @@
 		(dnp no)
 		(uuid "2ace69c7-9562-41c8-b0c8-a04d550f37ed")
 		(property "Reference" "R12"
-			(at 230.505 106.68 90)
+			(at 230.505 107.95 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8344,7 +8344,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "CHG_LED"
 			(at 186.817 91.0646 90)
 			(effects
 				(font
@@ -8479,7 +8479,7 @@
 				)
 			)
 		)
-		(property "Value" "2k"
+		(property "Value" "10k"
 			(at 177.165 88.9 90)
 			(effects
 				(font
@@ -8540,7 +8540,7 @@
 		(dnp no)
 		(uuid "6d657388-4747-4bde-9356-562487fce069")
 		(property "Reference" "C2B1"
-			(at 116.84 99.695 0)
+			(at 118.11 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9802,7 +9802,7 @@
 		(dnp no)
 		(uuid "89e7366e-fcf9-413a-b0d6-0c8f4081279d")
 		(property "Reference" "C2C1"
-			(at 123.19 99.695 0)
+			(at 124.46 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10146,7 +10146,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push_Dual"
+		(property "Value" "PWR_Push"
 			(at 159.385 135.262 0)
 			(effects
 				(font
@@ -10979,7 +10979,7 @@
 		(dnp no)
 		(uuid "b448f5e1-7b4f-4598-b708-1ceb1946db44")
 		(property "Reference" "R11"
-			(at 225.425 106.68 90)
+			(at 225.425 107.95 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11445,7 +11445,7 @@
 		(dnp no)
 		(uuid "d91548ae-4916-4863-bcb6-a03405c39620")
 		(property "Reference" "C_PMID1"
-			(at 135.255 60.96 0)
+			(at 134.62 60.706 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11514,7 +11514,7 @@
 		(dnp no)
 		(uuid "dc9d869f-ed4a-4d63-8a9e-4be06d08cfb1")
 		(property "Reference" "R10"
-			(at 220.345 106.68 90)
+			(at 220.345 107.95 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11788,7 +11788,7 @@
 		(dnp no)
 		(uuid "e5ef10d6-9628-4ded-9cf9-c2c31fefa855")
 		(property "Reference" "FB1"
-			(at 269.875 101.6 90)
+			(at 273.05 95.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11796,7 +11796,7 @@
 			)
 		)
 		(property "Value" "	BLM31KN471SZ1L"
-			(at 274.955 99.06 90)
+			(at 274.955 103.505 90)
 			(effects
 				(font
 					(size 1.27 1.27)
