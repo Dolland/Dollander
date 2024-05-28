@@ -49,7 +49,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.0
+          "min_clearance": 1.2
         }
       },
       "diff_pair_dimensions": [
@@ -780,7 +780,7 @@
       "pos_files": "",
       "specctra_dsn": "",
       "step": "Board Console 2023.step",
-      "svg": "/home/dolland/Documenti/",
+      "svg": "/mnt/Dati/Documenti/Uni/Magistrale/TESI/Tesi_LaTeX/Pics/Front",
       "vrml": "3D/Board Console 2023.wrl"
     },
     "page_layout_descr_file": ""

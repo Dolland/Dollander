@@ -21,4 +21,5 @@
   (lib (name "STX-3120-5B")(type "KiCad")(uri "${KIPRJMOD}/Libs/STX-3120-5B")(options "")(descr ""))
   (lib (name "CUI_SJ1-3525N")(type "KiCad")(uri "${KIPRJMOD}/Libs/CUI_SJ1-3525N")(options "")(descr ""))
   (lib (name "Button")(type "KiCad")(uri "${KIPRJMOD}/Libs/Button")(options "")(descr ""))
+  (lib (name "Libs")(type "KiCad")(uri "${KIPRJMOD}/Libs")(options "")(descr ""))
 )

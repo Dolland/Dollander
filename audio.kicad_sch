@@ -933,6 +933,214 @@
 				)
 			)
 		)
+		(symbol "Diode:BAV99"
+			(pin_names hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "BAV99"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "BAV99 High-speed switching diodes, SOT-23"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "BAV99_0_1"
+				(polyline
+					(pts
+						(xy -5.08 0) (xy 5.08 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "BAV99_1_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 1.27) (xy 3.81 -1.27) (xy 3.81 -1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 1.27) (xy -1.27 0) (xy -3.81 -1.27) (xy -3.81 1.27) (xy -3.81 1.27) (xy -3.81 1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 3.81 0) (xy 1.27 -1.27) (xy 1.27 1.27) (xy 1.27 1.27) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Jumper:SolderJumper_2_Open"
 			(pin_numbers hide)
 			(pin_names
@@ -2345,7 +2553,17 @@
 	)
 	(wire
 		(pts
-			(xy 123.825 121.285) (xy 126.365 121.285)
+			(xy 158.115 114.3) (xy 158.115 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "386fc7b3-161b-430c-95c3-b780617b381f")
+	)
+	(wire
+		(pts
+			(xy 123.825 120.65) (xy 126.365 120.65)
 		)
 		(stroke
 			(width 0)
@@ -2385,7 +2603,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.825 108.585) (xy 123.825 121.285)
+			(xy 123.825 108.585) (xy 123.825 120.65)
 		)
 		(stroke
 			(width 0)
@@ -2415,7 +2633,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 154.94) (xy 127 154.94)
+			(xy 121.92 151.13) (xy 126.365 151.13)
 		)
 		(stroke
 			(width 0)
@@ -2492,16 +2710,6 @@
 			(type default)
 		)
 		(uuid "56f75d47-bb96-48b9-8338-f023755935d7")
-	)
-	(wire
-		(pts
-			(xy 121.92 140.97) (xy 121.92 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5741a7b4-0820-4f25-9b5a-f34e842a0058")
 	)
 	(wire
 		(pts
@@ -2735,6 +2943,16 @@
 	)
 	(wire
 		(pts
+			(xy 121.92 140.97) (xy 121.92 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a80aac7-3d23-42b3-8c46-17e8ef00eff7")
+	)
+	(wire
+		(pts
 			(xy 83.82 108.585) (xy 86.995 108.585)
 		)
 		(stroke
@@ -2822,6 +3040,16 @@
 			(type default)
 		)
 		(uuid "84ce7254-b66f-4e2e-a0e2-7fddf975ff24")
+	)
+	(wire
+		(pts
+			(xy 109.855 153.67) (xy 109.855 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87da1de7-9785-4561-99d8-a12832f448d3")
 	)
 	(wire
 		(pts
@@ -2915,7 +3143,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 135.89) (xy 119.38 118.745)
+			(xy 119.38 135.89) (xy 119.38 118.11)
 		)
 		(stroke
 			(width 0)
@@ -2965,7 +3193,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 157.48) (xy 109.855 157.48)
+			(xy 126.365 153.67) (xy 109.855 153.67)
 		)
 		(stroke
 			(width 0)
@@ -3025,7 +3253,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 118.745) (xy 126.365 118.745)
+			(xy 119.38 118.11) (xy 126.365 118.11)
 		)
 		(stroke
 			(width 0)
@@ -3075,7 +3303,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 125.73) (xy 146.685 125.73)
+			(xy 121.92 125.73) (xy 153.035 125.73)
 		)
 		(stroke
 			(width 0)
@@ -3322,6 +3550,16 @@
 			(type default)
 		)
 		(uuid "d392eab5-0f7a-4862-aa8f-2bb97642f3b7")
+	)
+	(wire
+		(pts
+			(xy 158.115 137.16) (xy 158.115 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d73b3fad-e347-492e-8249-f371e1708d80")
 	)
 	(wire
 		(pts
@@ -3590,6 +3828,28 @@
 		(uuid "0c2ff2e5-527e-48b5-a610-387306fc57b4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 30.6093 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+5V"
+		(shape input)
+		(at 158.115 114.3 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "13036250-34c5-4dfd-8b9d-15505daa9266")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 151.2593 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4271,8 +4531,81 @@
 		)
 	)
 	(symbol
+		(lib_id "Diode:BAV99")
+		(at 158.115 125.73 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "23a05f3a-168f-427c-afb6-eb75e6b144c2")
+		(property "Reference" "D6"
+			(at 160.1216 126.9422 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BAV99"
+			(at 160.1216 124.5179 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 145.415 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf"
+			(at 158.115 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "BAV99 High-speed switching diodes, SOT-23"
+			(at 158.115 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "fbcc9310-a0a6-4bf0-b9a8-5b70cfb5cb0c")
+		)
+		(pin "3"
+			(uuid "06ede2a4-1720-48b5-babd-87cc8f01f56d")
+		)
+		(pin "1"
+			(uuid "b1cca4fc-1b3a-45c6-a463-c725920dd612")
+		)
+		(instances
+			(project "Board Console 2023"
+				(path "/306f3bb0-3e7b-4e83-a527-90f1c0ddb0d4/3caec7dc-570b-44e3-af56-bafd59850fb7"
+					(reference "D6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 132.08 154.94 0)
+		(at 131.445 151.13 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4281,7 +4614,7 @@
 		(fields_autoplaced yes)
 		(uuid "25367117-773c-4a35-9412-7cab537d550a")
 		(property "Reference" "J14"
-			(at 134.112 154.9978 0)
+			(at 133.477 151.1878 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4290,7 +4623,7 @@
 			)
 		)
 		(property "Value" "SpeakerR"
-			(at 134.112 157.4221 0)
+			(at 133.477 153.6121 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4299,7 +4632,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 132.08 154.94 0)
+			(at 131.445 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4308,7 +4641,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 132.08 154.94 0)
+			(at 131.445 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4317,7 +4650,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 132.08 154.94 0)
+			(at 131.445 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4424,7 +4757,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 146.685 125.73 0)
+		(at 158.115 137.16 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4433,7 +4766,7 @@
 		(fields_autoplaced yes)
 		(uuid "2806c112-7c41-48f8-a25d-c204cb9faf30")
 		(property "Reference" "#PWR037"
-			(at 146.685 132.08 0)
+			(at 158.115 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4442,7 +4775,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 146.685 129.8631 0)
+			(at 158.115 141.2931 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4450,7 +4783,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 146.685 125.73 0)
+			(at 158.115 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4459,7 +4792,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 146.685 125.73 0)
+			(at 158.115 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4468,7 +4801,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 146.685 125.73 0)
+			(at 158.115 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6740,7 +7073,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 131.445 118.745 0)
+		(at 131.445 118.11 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6749,7 +7082,7 @@
 		(fields_autoplaced yes)
 		(uuid "c9d593b1-d59c-48f5-896b-a373a1d32193")
 		(property "Reference" "J13"
-			(at 133.477 118.8028 0)
+			(at 133.477 118.1678 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6758,7 +7091,7 @@
 			)
 		)
 		(property "Value" "SpeakerL"
-			(at 133.477 121.2271 0)
+			(at 133.477 120.5921 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6767,7 +7100,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 131.445 118.745 0)
+			(at 131.445 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6776,7 +7109,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 131.445 118.745 0)
+			(at 131.445 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6785,7 +7118,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 131.445 118.745 0)
+			(at 131.445 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
