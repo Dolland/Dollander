@@ -12289,7 +12289,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0603"
+		(property "Footprint" "EXB28V330JX:EXB28V_PAN"
 			(at 213.995 74.93 90)
 			(effects
 				(font
@@ -14063,7 +14063,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0603"
+		(property "Footprint" "EXB28V330JX:EXB28V_PAN"
 			(at 213.995 44.45 90)
 			(effects
 				(font
@@ -14618,7 +14618,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0603"
+		(property "Footprint" "EXB28V330JX:EXB28V_PAN"
 			(at 123.825 103.505 90)
 			(effects
 				(font
@@ -14852,7 +14852,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0603"
+		(property "Footprint" "EXB28V330JX:EXB28V_PAN"
 			(at 213.995 64.77 90)
 			(effects
 				(font
@@ -15704,7 +15704,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0603"
+		(property "Footprint" "EXB28V330JX:EXB28V_PAN"
 			(at 213.995 54.61 90)
 			(effects
 				(font
@@ -15790,7 +15790,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0603"
+		(property "Footprint" "EXB28V330JX:EXB28V_PAN"
 			(at 213.995 95.25 90)
 			(effects
 				(font
@@ -16012,7 +16012,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0603"
+		(property "Footprint" "EXB28V330JX:EXB28V_PAN"
 			(at 213.995 85.09 90)
 			(effects
 				(font
