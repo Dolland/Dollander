@@ -44145,7 +44145,7 @@
 		)
 		(fp_arc
 			(start -0.4953 -0.085853)
-			(mid -0.423038 -0.013591)
+			(mid -0.423038 -0.013589)
 			(end -0.4953 0.058674)
 			(stroke
 				(width 0.0254)
@@ -44189,7 +44189,7 @@
 		)
 		(fp_arc
 			(start 0.4953 -0.441452)
-			(mid 0.423037 -0.513715)
+			(mid 0.423038 -0.513714)
 			(end 0.4953 -0.585978)
 			(stroke
 				(width 0.0254)
@@ -57802,7 +57802,7 @@
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R46"
-			(at 0 1.43 360)
+			(at 0 1.43 0)
 			(layer "B.SilkS")
 			(uuid "b3161ee1-7839-4a13-b14a-a83dcb6929c3")
 			(effects
@@ -57814,7 +57814,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 0 -1.43 360)
+			(at 0 -1.43 0)
 			(layer "B.Fab")
 			(uuid "a1e2a4a2-2acd-49fe-ab5c-4b75f19e3eb1")
 			(effects
@@ -57970,7 +57970,7 @@
 			(uuid "f5005435-6c17-4076-8879-d21efeb1011d")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(uuid "157363a7-1600-4913-935c-7c5b71a80c98")
 			(effects
@@ -60168,7 +60168,7 @@
 		(descr "SMD Solder Jumper, 1x1.5mm Pads, 0.3mm gap, open")
 		(tags "solder jumper open")
 		(property "Reference" "JP8"
-			(at 0 1.8 0)
+			(at 2.4 -0.1 90)
 			(layer "B.SilkS")
 			(uuid "0dea8435-063a-4493-b987-daa4a710d2cc")
 			(effects
