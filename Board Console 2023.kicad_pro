@@ -49,7 +49,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 1.2
+          "min_clearance": 0.508
         }
       },
       "diff_pair_dimensions": [
@@ -782,7 +782,7 @@
       "pos_files": "",
       "specctra_dsn": "",
       "step": "3D/Board Console 2023.step",
-      "svg": "/mnt/Dati/Documenti/Uni/Magistrale/TESI/Tesi_LaTeX/Pics/Bottom/",
+      "svg": "/mnt/Dati/Documenti/Uni/Magistrale/TESI/Tesi_LaTeX/Pics/VDD/",
       "vrml": "3D/Board Console 2023.wrl"
     },
     "page_layout_descr_file": ""

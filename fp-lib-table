@@ -24,4 +24,5 @@
   (lib (name "Libs")(type "KiCad")(uri "${KIPRJMOD}/Libs")(options "")(descr ""))
   (lib (name "EXV18V_PAN")(type "KiCad")(uri "${KIPRJMOD}/Libs/EXV18V_PAN")(options "")(descr ""))
   (lib (name "EXB28V330JX")(type "KiCad")(uri "${KIPRJMOD}/Libs/EXB28V330JX")(options "")(descr ""))
+  (lib (name "PAM2841")(type "KiCad")(uri "${KIPRJMOD}/Libs/PAM2841")(options "")(descr ""))
 )

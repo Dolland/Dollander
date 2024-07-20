@@ -18,4 +18,5 @@
   (lib (name "JS102011SAQN")(type "KiCad")(uri "${KIPRJMOD}/Libs/JS102011SAQN/JS102011SAQN.kicad_sym")(options "")(descr ""))
   (lib (name "EVQ-P7A01P")(type "KiCad")(uri "${KIPRJMOD}/Libs/EVQ_P7A01P/EVQ-P7A01P.kicad_sym")(options "")(descr ""))
   (lib (name "SJ1-3525N")(type "KiCad")(uri "${KIPRJMOD}/Libs/CUI_SJ1-3525N/SJ1-3525N.kicad_sym")(options "")(descr ""))
+  (lib (name "PAM2841")(type "KiCad")(uri "${KIPRJMOD}/Libs/PAM2841/PAM2841.kicad_sym")(options "")(descr ""))
 )
